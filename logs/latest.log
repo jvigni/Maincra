@@ -1,0 +1,111 @@
+[07Mar2021 00:31:53.094] [Netty Server IO #1/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[07Mar2021 00:31:53.105] [Netty Server IO #1/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: Disconnecting com.mojang.authlib.GameProfile@15da869[id=<null>,name=Lyssandry,properties={},legacy=false] (/25.3.128.136:64326): Unexpected custom data from client
+[07Mar2021 00:31:53.119] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@15da869[id=<null>,name=Lyssandry,properties={},legacy=false] (/25.3.128.136:64326) lost connection: Unexpected custom data from client
+[07Mar2021 00:32:20.137] [Netty Server IO #2/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[07Mar2021 00:32:20.140] [Netty Server IO #2/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: Disconnecting com.mojang.authlib.GameProfile@28e4f[id=<null>,name=Lyssandry,properties={},legacy=false] (/25.3.128.136:64328): Unexpected custom data from client
+[07Mar2021 00:32:20.169] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@28e4f[id=<null>,name=Lyssandry,properties={},legacy=false] (/25.3.128.136:64328) lost connection: Unexpected custom data from client
+[07Mar2021 00:43:32.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /advancement (grant|revoke)
+[07Mar2021 00:43:32.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /as (attune|constellation|exp|maximize|progress|reset)
+[07Mar2021 00:43:32.222] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /astralsorcery -> as
+[07Mar2021 00:43:32.223] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /attribute <target> <attribute> (base|get|modifier)
+[07Mar2021 00:43:32.224] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /ban <targets> [<reason>]
+[07Mar2021 00:43:32.224] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /ban-ip <target> [<reason>]
+[07Mar2021 00:43:32.225] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /banlist [ips|players]
+[07Mar2021 00:43:32.225] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /bossbar (add|get|list|remove|set)
+[07Mar2021 00:43:32.225] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /clear [<targets>]
+[07Mar2021 00:43:32.226] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /clone <begin> <end> <destination> [filtered|masked|replace]
+[07Mar2021 00:43:32.226] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /config showfile <mod> <type>
+[07Mar2021 00:43:32.226] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /curios (add|clear|lock|remove|reset|set|unlock)
+[07Mar2021 00:43:32.226] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /data (get|merge|modify|remove)
+[07Mar2021 00:43:32.227] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /datapack (disable|enable|list)
+[07Mar2021 00:43:32.227] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /debug (report|start|stop)
+[07Mar2021 00:43:32.227] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /defaultgamemode (adventure|creative|spectator|survival)
+[07Mar2021 00:43:32.228] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /deop <targets>
+[07Mar2021 00:43:32.228] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /difficulty [easy|hard|normal|peaceful]
+[07Mar2021 00:43:32.228] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /effect (clear|give)
+[07Mar2021 00:43:32.229] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /enchant <targets> <enchantment> [<level>]
+[07Mar2021 00:43:32.229] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /execute (align|anchored|as|at|facing|if|in|positioned|rotated|run|store|unless)
+[07Mar2021 00:43:32.229] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /experience (add|query|set)
+[07Mar2021 00:43:32.230] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /fill <from> <to> <block> [destroy|hollow|keep|outline|replace]
+[07Mar2021 00:43:32.230] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /forceload (add|query|remove)
+[07Mar2021 00:43:32.230] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /forge (dimensions|entity|generate|mods|setdimension|tps|track)
+[07Mar2021 00:43:32.231] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /function <name>
+[07Mar2021 00:43:32.231] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /gamemode (adventure|creative|spectator|survival)
+[07Mar2021 00:43:32.231] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /gamerule (announceAdvancements|asIgnoreSkylightCheck|commandBlockOutput|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doWeatherCycle|drowningDamage|fallDamage|fireDamage|forgiveDeadPlayers|keepInventory|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobGriefing|naturalRegeneration|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|spawnRadius|spectatorsGenerateChunks|universalAnger)
+[07Mar2021 00:43:32.232] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /give <targets> <item> [<count>]
+[07Mar2021 00:43:32.232] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /help [<command>]
+[07Mar2021 00:43:32.233] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /ie (clearshaders|mineral|resetmanual|resetrender)
+[07Mar2021 00:43:32.234] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /kick <targets> [<reason>]
+[07Mar2021 00:43:32.234] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /kill [<targets>]
+[07Mar2021 00:43:32.234] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /list [uuids]
+[07Mar2021 00:43:32.234] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /locate (astralsorcery:ancient_shrine|astralsorcery:desert_shrine|astralsorcery:small_shrine|bastion_remnant|buried_treasure|desert_pyramid|dungeonsmod:the_camp|dungeonsmod:the_castle|dungeonsmod:the_chapel|dungeonsmod:the_house|dungeonsmod:the_lab|dungeonsmod:the_mines|dungeonsmod:the_origin|dungeonsmod:the_ship|endcity|fortress|igloo|jungle_pyramid|mansion|mineshaft|monument|nether_fossil|ocean_ruin|pillager_outpost|ruined_portal|shipwreck|stronghold|swamp_hut|village)
+[07Mar2021 00:43:32.235] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /locatebiome <biome>
+[07Mar2021 00:43:32.235] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /loot (give|insert|replace|spawn)
+[07Mar2021 00:43:32.236] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /me <action>
+[07Mar2021 00:43:32.236] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /msg <targets> <message>
+[07Mar2021 00:43:32.236] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /offhandcombat (disable|enable|toggle)
+[07Mar2021 00:43:32.236] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /op <targets>
+[07Mar2021 00:43:32.237] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /pardon <targets>
+[07Mar2021 00:43:32.237] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /pardon-ip <target>
+[07Mar2021 00:43:32.237] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /particle <name> [<pos>]
+[07Mar2021 00:43:32.238] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /playsound <sound> (ambient|block|hostile|master|music|neutral|player|record|voice|weather)
+[07Mar2021 00:43:32.238] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /recipe (give|take)
+[07Mar2021 00:43:32.239] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /reload
+[07Mar2021 00:43:32.239] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /replaceitem (block|entity)
+[07Mar2021 00:43:32.239] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /save-all [flush]
+[07Mar2021 00:43:32.240] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /save-off
+[07Mar2021 00:43:32.241] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /save-on
+[07Mar2021 00:43:32.241] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /say <message>
+[07Mar2021 00:43:32.241] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /schedule (clear|function)
+[07Mar2021 00:43:32.241] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /scoreboard (objectives|players)
+[07Mar2021 00:43:32.242] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /seed
+[07Mar2021 00:43:32.242] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /setblock <pos> <block> [destroy|keep|replace]
+[07Mar2021 00:43:32.242] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /setidletimeout <minutes>
+[07Mar2021 00:43:32.242] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /setworldspawn [<pos>]
+[07Mar2021 00:43:32.243] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /simpletomb [<arguments>]
+[07Mar2021 00:43:32.243] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /spawnpoint [<targets>]
+[07Mar2021 00:43:32.243] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /spectate [<target>]
+[07Mar2021 00:43:32.243] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /spreadplayers <center> <spreadDistance> <maxRange> (under|<respectTeams>)
+[07Mar2021 00:43:32.244] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /stop
+[07Mar2021 00:43:32.244] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /stopsound <targets> [*|ambient|block|hostile|master|music|neutral|player|record|voice|weather]
+[07Mar2021 00:43:32.244] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /summon <entity> [<pos>]
+[07Mar2021 00:43:32.244] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tag <targets> (add|list|remove)
+[07Mar2021 00:43:32.245] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /team (add|empty|join|leave|list|modify|remove)
+[07Mar2021 00:43:32.245] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /teammsg <message>
+[07Mar2021 00:43:32.245] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /teleport (<destination>|<location>|<targets>)
+[07Mar2021 00:43:32.245] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tell -> msg
+[07Mar2021 00:43:32.246] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tellraw <targets> <message>
+[07Mar2021 00:43:32.246] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /time (add|query|set)
+[07Mar2021 00:43:32.246] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /title <targets> (actionbar|clear|reset|subtitle|times|title)
+[07Mar2021 00:43:32.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tm -> teammsg
+[07Mar2021 00:43:32.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /tp -> teleport
+[07Mar2021 00:43:32.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /trigger <objective> [add|set]
+[07Mar2021 00:43:32.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /w -> msg
+[07Mar2021 00:43:32.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /weather (clear|rain|thunder)
+[07Mar2021 00:43:32.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /whitelist (add|list|off|on|reload|remove)
+[07Mar2021 00:43:32.248] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /worldborder (add|center|damage|get|set|warning)
+[07Mar2021 00:43:32.250] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /xp -> experience
+[07Mar2021 00:43:34.819] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Unknown or incomplete command, see below for error
+[07Mar2021 00:43:34.820] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: /who<--[HERE]
+[07Mar2021 00:43:46.119] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: [Server] uwu
+[07Mar2021 01:23:21.153] [Netty Server IO #5/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[07Mar2021 01:23:21.154] [Netty Server IO #5/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: Disconnecting com.mojang.authlib.GameProfile@1919d6b[id=<null>,name=dema,properties={},legacy=false] (/25.106.200.45:53953): Unexpected custom data from client
+[07Mar2021 01:23:21.169] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@1919d6b[id=<null>,name=dema,properties={},legacy=false] (/25.106.200.45:53953) lost connection: Unexpected custom data from client
+[07Mar2021 01:24:11.735] [Netty Server IO #0/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[07Mar2021 01:24:11.735] [Netty Server IO #0/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: Disconnecting com.mojang.authlib.GameProfile@1218feb[id=<null>,name=dema,properties={},legacy=false] (/25.106.200.45:53964): Unexpected custom data from client
+[07Mar2021 01:24:11.770] [Server thread/INFO] [net.minecraft.network.login.ServerLoginNetHandler/]: com.mojang.authlib.GameProfile@1218feb[id=<null>,name=dema,properties={},legacy=false] (/25.106.200.45:53964) lost connection: Unexpected custom data from client
+[07Mar2021 02:03:34.681] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[07Mar2021 02:03:34.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[07Mar2021 02:03:34.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[07Mar2021 02:03:34.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07Mar2021 02:03:35.043] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07Mar2021 02:03:35.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[07Mar2021 02:03:35.045] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07Mar2021 02:03:35.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[07Mar2021 02:03:35.047] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07Mar2021 02:03:35.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/undergarden:undergarden
+[07Mar2021 02:03:35.049] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
+[07Mar2021 02:03:35.084] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07Mar2021 02:03:35.179] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07Mar2021 02:03:35.180] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07Mar2021 02:03:35.181] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (undergarden): All chunks are saved
